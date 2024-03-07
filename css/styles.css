@@ -3791,7 +3791,7 @@ input[type="button"].btn--primary:focus {
     width: var(--vspace-5);
     height: var(--vspace-5);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 50%;
+    border-radius: 70%;
 }
 
 .s-about__content-bottom {
@@ -3838,7 +3838,7 @@ input[type="button"].btn--primary:focus {
  * responsive:
  * about
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     .s-about__pic {
         width: var(--vspace-4_5);
         height: var(--vspace-4_5);
