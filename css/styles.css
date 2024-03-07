@@ -3791,7 +3791,7 @@ input[type="button"].btn--primary:focus {
     width: var(--vspace-5);
     height: var(--vspace-5);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 70%;
+    border-radius: 60%;
 }
 
 .s-about__content-bottom {
@@ -3838,23 +3838,23 @@ input[type="button"].btn--primary:focus {
  * responsive:
  * about
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
     .s-about__pic {
         width: var(--vspace-4_5);
         height: var(--vspace-4_5);
-        border-width: 2rem;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .s-about__pic {
-        width: var(--vspace-4);
-        height: var(--vspace-4);
-        border-width: 1rem;
+        border-width: 1.4rem;
     }
 }
 
 @media screen and (max-width: 900px) {
+    .s-about__pic {
+        width: var(--vspace-4);
+        height: var(--vspace-4);
+        border-width: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .s-about {
         padding-top: var(--vspace-5);
     }
@@ -3863,7 +3863,7 @@ input[type="button"].btn--primary:focus {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .s-about__content-bottom .btn--download {
         margin-top: var(--vspace-0_5);
         width: 100%;
