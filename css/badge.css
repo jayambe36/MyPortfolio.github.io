@@ -46,3 +46,11 @@
     color: rgb(255, 179, 11);
   }
   
+ .badge .text-1 a, .badge .text-2 a {
+            color: inherit;
+            text-decoration: none;
+ }
+
+ .badge .text-1 a:hover, .badge .text-2 a:hover {
+            text-decoration: underline;
+}
